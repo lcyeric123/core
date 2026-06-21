@@ -36,12 +36,6 @@ jobs:
             libssl-dev \
             libcurl4-openssl-dev \
             libgtk-3-dev \
-            libkf5config-dev \
-            libkf5windowsystem-dev \
-            libkf5kio-dev \
-            qtbase5-dev \
-            libqt5svg5-dev \
-            libqt5x11extras5-dev \
             libepoxy-dev \
             libcairo2-dev \
             libpango1.0-dev \
@@ -101,21 +95,7 @@ jobs:
             --disable-firebird-sdbc \
             --disable-pdfimport \
             --disable-report-builder \
-            --disable-scripting-beanshell \
-            --disable-scripting-javascript \
-            --disable-scripting-python \
-            --disable-ext-wiki-publisher \
-            --disable-ext-nlpsolver \
-            --disable-ext-numbertext \
-            --disable-lotuswordpro \
-            --disable-coordinate-system \
-            --disable-telepathy \
-            --disable-evolution2 \
-            --disable-kde4 \
-            --disable-kde5 \
             --enable-gtk3 \
-            --disable-qt5 \
-            --disable-qt6 \
             --with-system-libs \
             --with-system-headers \
             CC="ccache gcc" \
